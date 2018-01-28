@@ -1,0 +1,30 @@
+<div class="header">
+    <div class="header-logo">
+      <i class="fa fa-linode"></i>
+      iCardMarket
+    </div>
+    <div class="header-nav">
+      <ul>
+        <li *ngFor="let nav of navs" [routerLinkActive]="'active'">
+          <a [routerLink]="nav.routerLink">
+            <i *ngIf="nav.icons" class="{{nav.icons}}"></i>
+            <span>{{nav.title}}</span>
+            <i *ngIf="nav.data" class="el-icon-caret-bottom"></i>
+          </a>
+          <div *ngIf="nav.data as subs" class="header-nav-sub">
+            <ul>
+              <li *ngFor="let sub of subs" [routerLinkActive]="'active'">
+                <a [routerLink]="nav.routerLink+sub.routerLink">
+                  <i *ngIf="sub.icons" class="{{sub.icons}}"></i>
+                  <span>{{sub.title}}</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="header-quick">
+      right
+    </div>
+</div>
