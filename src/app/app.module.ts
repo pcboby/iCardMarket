@@ -25,7 +25,7 @@ import {
     AppComponent
   ],
   imports: [
-    CommonModule,
+  CommonModule,
     BrowserModule,
     BrowserAnimationsModule,
     AppRouting

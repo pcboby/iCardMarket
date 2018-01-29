@@ -63,7 +63,7 @@ export const ApiNav = [{
   }, {
     'id': '10060003',
     'title': '系统日志',
-    'routerLink': '/log'
+    'routerLink': '/logs'
   }]
 }, {
   'id': '1009',

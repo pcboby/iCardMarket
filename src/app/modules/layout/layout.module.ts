@@ -18,11 +18,13 @@ import {
   CommonModule
 } from '@angular/common';
 
+import { CoreModule } from '../../core/core.module';
 
 @NgModule({
   imports: [
-    CommonModule,
+  CommonModule,
     LayoutRouting,
+    CoreModule,
     ElModule.forRoot()
   ],
   declarations: [

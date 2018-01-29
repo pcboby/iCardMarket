@@ -14,7 +14,7 @@ const routes: Routes = [{
   component: SystemComponent,
   children: [{
     path: '',
-    redirectTo: 'tenants'
+    redirectTo: 'welcome'
   }, {
     path: 'config',
     loadChildren: './modules/config/config.module#ConfigModule'
@@ -22,8 +22,8 @@ const routes: Routes = [{
     path: 'tenants',
     loadChildren: './modules/tenants/tenants.module#TenantsModule'
     }, {
-      path: 'log',
-      loadChildren: './modules/log/log.module#LogModule'
+      path: 'logs',
+      loadChildren: './modules/logs/logs.module#LogsModule'
     }]
 }];
 
