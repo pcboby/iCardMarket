@@ -30,10 +30,13 @@ const routes: Routes = [{
   }, {
     path: 'person',
     loadChildren: './modules/person/person.module#PersonModule'
-  }, {
-    path: 'role',
-    loadChildren: './modules/role/role.module#RoleModule'
-  }]
+    }, {
+      path: 'role',
+      loadChildren: './modules/role/role.module#RoleModule'
+    }, {
+      path: 'log',
+      loadChildren: './modules/log/log.module#LogModule'
+    }]
 }];
 
 @NgModule({

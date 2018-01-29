@@ -15,6 +15,7 @@ import {
   imports: [
     AppsRouting
   ],
-  declarations: [AppsComponent]
+  declarations: [AppsComponent
+]
 })
 export class AppsModule {}

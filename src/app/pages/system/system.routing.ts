@@ -14,20 +14,17 @@ const routes: Routes = [{
   component: SystemComponent,
   children: [{
     path: '',
-    redirectTo: 'welcome'
-  }, {
-    path: 'about',
-    loadChildren: './modules/about/about.module#AboutModule'
+    redirectTo: 'tenants'
   }, {
     path: 'config',
     loadChildren: './modules/config/config.module#ConfigModule'
   }, {
     path: 'tenants',
     loadChildren: './modules/tenants/tenants.module#TenantsModule'
-  }, {
-    path: 'welcome',
-    loadChildren: './modules/welcome/welcome.module#WelcomeModule'
-  }]
+    }, {
+      path: 'log',
+      loadChildren: './modules/log/log.module#LogModule'
+    }]
 }];
 
 @NgModule({

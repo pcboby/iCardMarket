@@ -33,6 +33,9 @@ const routes: Routes = [{
   }, {
     path: 'system',
     loadChildren: '../../pages/system/system.module#SystemModule'
+  }, {
+    path: 'help',
+    loadChildren: '../../pages/help/help.module#HelpModule'
   }]
 }];
 

@@ -2,7 +2,7 @@ export const ApiNav = [{
   'id': '1001',
   'title': '我的桌面',
   'routerLink': '/dashboard',
-  'icons':'fa fa-window-restore'
+  'icons': 'fa fa-window-restore'
 }, {
   'id': '1002',
   'title': '卡片市场',
@@ -43,6 +43,10 @@ export const ApiNav = [{
     'id': '10050006',
     'title': '应用管理',
     'routerLink': '/apps'
+  }, {
+    'id': '10050007',
+    'title': '租户日志',
+    'routerLink': '/log'
   }]
 }, {
   'id': '1006',
@@ -54,15 +58,28 @@ export const ApiNav = [{
     'routerLink': '/tenants'
   }, {
     'id': '10060002',
+    'title': '系统设置',
+    'routerLink': '/config'
+  }, {
+    'id': '10060003',
+    'title': '系统日志',
+    'routerLink': '/log'
+  }]
+}, {
+  'id': '1009',
+  'title': '系统帮助',
+  'routerLink': '/help',
+  'data': [{
+    'id': '10090001',
     'title': '欢迎使用',
     'routerLink': '/welcome'
   }, {
-    'id': '10060003',
+    'id': '10090002',
     'title': '关于我们',
     'routerLink': '/about'
   }, {
-    'id': '10060004',
-    'title': '系统设置',
-    'routerLink': '/config'
+    'id': '1009003',
+    'title': '使用文档',
+    'routerLink': '/document'
   }]
-}, ];
+}];
