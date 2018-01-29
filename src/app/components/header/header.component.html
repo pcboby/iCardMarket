@@ -25,6 +25,14 @@
       </ul>
     </div>
     <div class="header-quick">
-      right
+      <el-select [model]="'选项2'" size="small" readonly>
+        <el-option *ngFor="let item of [{value: 'iCardMarket',label: 'iCardMarket' },
+            { value: '选项2', label: '双皮奶' },
+            { elDisabled: true, value: '选项3', label: '蚵仔煎' },
+            { value: '选项4', label: '龙须面' },
+            { value: '选项5', label: '北京烤鸭' }]"
+            [label]="item.label" [value]="item.value">
+        </el-option>
+      </el-select>
     </div>
 </div>

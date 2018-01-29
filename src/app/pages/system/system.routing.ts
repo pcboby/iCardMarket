@@ -14,7 +14,7 @@ const routes: Routes = [{
   component: SystemComponent,
   children: [{
     path: '',
-    redirectTo: 'welcome'
+    redirectTo: 'config'
   }, {
     path: 'config',
     loadChildren: './modules/config/config.module#ConfigModule'
