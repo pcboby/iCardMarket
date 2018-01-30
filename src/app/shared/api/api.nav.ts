@@ -66,8 +66,16 @@ export const ApiNav = [{
     'id': '10050002',
     'title': '系统租户',
     'routerLink': '/tenants'
-  }, {
-    'id': '10050003',
+    }, {
+      'id': '10050003',
+      'title': '分类标签',
+      'routerLink': '/labels'
+    }, {
+      'id': '10050006',
+      'title': '数据统计',
+      'routerLink': '/statistics'
+    }, {
+    'id': '10050009',
     'title': '系统日志',
     'routerLink': '/logs'
   }]

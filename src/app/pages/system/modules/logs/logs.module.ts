@@ -15,6 +15,6 @@ import {
         LogsRouting
     ],
     declarations: [LogsComponent
-    ]
+]
 })
 export class LogsModule { }

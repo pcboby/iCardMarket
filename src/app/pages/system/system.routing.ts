@@ -21,10 +21,16 @@ const routes: Routes = [{
   }, {
     path: 'tenants',
     loadChildren: './modules/tenants/tenants.module#TenantsModule'
-    }, {
-      path: 'logs',
-      loadChildren: './modules/logs/logs.module#LogsModule'
-    }]
+  }, {
+    path: 'labels',
+    loadChildren: './modules/labels/labels.module#LabelsModule'
+  }, {
+    path: 'statistics',
+    loadChildren: './modules/statistics/statistics.module#StatisticsModule'
+  }, {
+    path: 'logs',
+    loadChildren: './modules/logs/logs.module#LogsModule'
+  }]
 }];
 
 @NgModule({
