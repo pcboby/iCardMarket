@@ -14,6 +14,7 @@ import {
     imports: [
         HelpRouting
     ],
-    declarations: [HelpComponent]
+    declarations: [HelpComponent
+]
 })
 export class HelpModule { }

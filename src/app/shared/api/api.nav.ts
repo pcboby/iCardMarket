@@ -5,12 +5,17 @@ export const ApiNav = [{
   'icons': 'fa fa-desktop'
 }, {
   'id': '1002',
-  'title': '卡片',
-  'routerLink': '/cardMarket'
-}, {
-  'id': '1003',
-  'title': '应用',
-  'routerLink': '/appMarket'
+  'title': '市场',
+  'routerLink': '/market',
+  'data': [{
+    'id': '10020001',
+    'title': '卡片市场',
+    'routerLink': '/cardMarket'
+  }, {
+    'id': '10020002',
+    'title': '应用市场',
+    'routerLink': '/appMarket'
+  }]
 }, {
   'id': '1004',
   'title': '工作台',
@@ -83,6 +88,6 @@ export const ApiNav = [{
     'id': '1009003',
     'title': '使用文档',
     'routerLink': '/document',
-      'icons': 'fa fa-info-circle'
+    'icons': 'fa fa-info-circle'
   }]
 }];
