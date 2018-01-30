@@ -4,12 +4,17 @@ import {
 import {
   CommonModule
 } from '@angular/common';
-import { LoaderService } from './services/loader.service';
+import {
+  LoaderService
+} from './services/loader.service';
+import {
+  TenantService
+} from './services/tenant.service';
 
 @NgModule({
   imports: [
-  CommonModule
+    CommonModule
   ],
-  providers: [LoaderService]
+  providers: [LoaderService, TenantService]
 })
 export class CoreModule {}

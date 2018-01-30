@@ -9,7 +9,10 @@ import {
   NgModule
 } from '@angular/core';
 import {
-    HeaderComponent, FooterComponent, SilderComponent, LoaderComponent
+  HeaderComponent,
+  FooterComponent,
+  SilderComponent,
+  LoaderComponent
 } from '../../components';
 import {
   ElModule
@@ -18,11 +21,13 @@ import {
   CommonModule
 } from '@angular/common';
 
-import { CoreModule } from '../../core/core.module';
+import {
+  CoreModule
+} from '../../core/core.module';
 
 @NgModule({
   imports: [
-  CommonModule,
+    CommonModule,
     LayoutRouting,
     CoreModule,
     ElModule.forRoot()
