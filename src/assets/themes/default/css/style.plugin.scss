@@ -85,6 +85,7 @@ blockquote {
 
 .el-main {
   margin-top: 42px;
+  padding: 0 !important;
 }
 
 .header {
@@ -210,3 +211,8 @@ blockquote {
 }
 
 .header .header-quick {}
+
+.el-carousel__item{
+  background-color: #5e6d82;
+}
+

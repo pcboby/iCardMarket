@@ -22,8 +22,8 @@ const routes: Routes = [{
     path: 'market',
     loadChildren: '../../pages/market/market.module#MarketModule'
   }, {
-    path: 'appMarket',
-    loadChildren: '../../pages/appMarket/appMarket.module#AppMarketModule'
+    path: 'market',
+    loadChildren: '../../pages/market/market.module#MarketModule'
   }, {
     path: 'works',
     loadChildren: '../../pages/works/works.module#WorksModule'
